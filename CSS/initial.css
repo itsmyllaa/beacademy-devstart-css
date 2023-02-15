@@ -37,4 +37,88 @@ Seletores:
 * Seletores usando class: ".red, .class, .container"
 * Attribute selector, Pseudo-class, Pseudo-element entre outros.
 
+
+O Browser determina qual regra aplicar e como aplicar, caso haja diversas regras para o mesmo elemento
+
+* O fluxo de leitura da sua folha de estilo é de cima para baixo
+
+*********** IMPORTANTE CONSIDERAR ****************
+
+1. Origem da folha de estilo
+2. Especificidade
+3. Importância 
+
+****** TIPOS DE ESTILO ******
+
+inline > tag style > tag link 
+
+* Especificidade 
+
+Cálculo matemático desenvolvido automaticamente pela regra css, onde cada tipo de seletor e origem do estilo possuem valores a serem considerados.
+
+0. Universal selector, combinator e pseudo-class (:not())
+1. Elementos do tipo seletor e pseudo-elementos (::before, ::after)
+10. Classes e atributos de seletores ([type="radio"])
+100. Seletor ID
+1000. Inline
+
+------------------------------------------------------------------
+
+#At-rules
+    São regras relacionadas ao comportamento do CSS, começa com um sinal de @ seguido do identificador e do valor.
+
+    São as seguintes: 
+    @import para incluir um CSS externo.
+
+    @import url("http://linkexterno.com.br/style.css")
+
+    @media são as regras condicionais para vários dispositivos.
+
+    @media (min-width: 365px) {
+
+    }
+
+    @font-face é para colocar fontes externas.
+
+    @font face {
+
+    }
+
+    @font-face é para colocar fontes externas.
+
+    @font-face {
+
+    }
+
+    @keyframes serve para as animations do CSS.
+
+    @keyframes animationname {
+    
+    }
+
+    ** Combinadores (Combinators) **
+
+    Combinadores são utilizados para buscar e combinar seletores afim de aplicar uma estilização.
+
+    Tipos:
+
+    ** Descendent Combinator **
+
+    Identificado por um espaço entre os seletores.
+    - Busca um elemento dentro de outro.
+    body ul li
+
+    ** Child Combinator **
+
+    Identificado pelo sinal > entre dois seletores
+    - Seleciona somente o elemento filho direto do pai
+    - Elementos depois do filho direto serão desconsiderados
+
+    ** Adjacent Combinator **
+    Identificado pelo sinal de + entre dois seletores
+    - Busca somente o elemento do lado direito que é irmão direto da hierarquia.
+
+
+
+
 */
