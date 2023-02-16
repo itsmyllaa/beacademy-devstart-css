@@ -32,4 +32,30 @@
     html {
         font-size: 18px;
     }
+
+Dica 1 do professor: 
+
+* Quando trabalhamos com designs responsivos, ou seja, layouts flexiveis que se adaptam para qualquer tipo de tela, é interessante utilizar a unidade rem.
+
+User agent (Browser), boa parte deles usam o font-size: 16px;
+
+Como converter pixels para rem
+Valor em pixels / Valor da fonte do user agent 
+
+Exemplo: 32px / 16px = 2rem
+
+Dica 2 do professor:
+
+Outra possibilidade é mudar a configuração do user agent de 16px para 10px, usando % e utilizando a regra de 3 da matemática, desta forma conseguimos cravar a unidade rem.
+
+Transformar o user agent de 16px para 10px em %
+
+User agent = 16px = 100%
+
+10 * 100 = 1000
+1000 / 16 = 62.5%
+
+:root {
+    font-size: 62.5%;
+}
 -->
