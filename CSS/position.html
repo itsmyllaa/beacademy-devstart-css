@@ -53,35 +53,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Positions</title>
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            height: 100vw;
+            display: flex;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            gap: 12px;
+        }
         .box {
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            border-style: double;
-            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            display: block;
         }
         .box-1 {
             background: red;
-            position: absolute;
-            left: 5px;
-            top: 10px;
-        /*  z-index: 3;   */
         }
         .box-2 {
             background: greenyellow;
-            position: absolute;
-            left: 10px;
-            top: 15px;
         }
         .box-3 {
             background: blue;
-            position: absolute;
-            left: 15px;
-            top: 20px;
         }
     </style>
 </head>
-<body>
+<body class="container">
     <div class="box box-1"></div>
     <div class="box box-2"></div>
     <div class="box box-3"></div>
