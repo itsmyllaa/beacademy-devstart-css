@@ -1,0 +1,32 @@
+/*ul li {
+    color: blue;
+    font-size: 1.4rem;
+}
+remove the tag <p></p> from the list ul and leave just ul and li's so the first child ul li is the first li like Luan Monteiro*/
+/*code: ul li:first-child{ color:red; so the name who will be red is Luan Monteiro because he is the first child.*/
+
+/*ul p:first-child {
+    color: red
+}
+
+body p:nth-of-type(3) {
+ color: red;
+}
+
+body p:nth-of-type(2) {
+    color: blue;
+}
+
+body p:nth-of-type(1) {
+    color: greenyellow;
+}*/
+
+ul li:nth-child(even) {
+    background: red;
+    color: white;
+}
+
+ul li:nth-child(odd) {
+    background: blue;
+    color: white;
+}
