@@ -1,0 +1,86 @@
+<!--
+    Trabalhando com textos:
+
+    Tipografia:
+    - Tamanho
+    - Estilo
+    - Força
+
+    Básico de propriedades de fonte
+
+    * font-family - Tipo de fonte do elemento, padrão sans-serif.
+    * font-weight - Peso da fonte, 400, 500, 700, bold.
+    * font-style - normal, italic, oblique, none.
+    * font-size - Tamanho da fonte, px, em, rem, %.
+    * font-variant - normal, small-caps
+    * font-stretch - Nem todas as fontes dão suporte a esta propriedade
+    ela permite manipular caracteres - condensed, normal, expanded.
+
+    * letter-spacing: espaçamento entre letras.
+    * word-spacing: espaçamento de palavras.
+    * line-height: espaço entre linhas (pode ser por unidade ou sem unidade)
+    * text-transform: lowcase, uppercase, (minúsculas e maiusculas)
+    captalize (cada palavra inicia com a letra maiúscula)
+    * text-decoration: line, underline, overline, line through, none.
+    atribuindo estilos - text-decoration: underline, wave, dashed, dotted, double e também cores.
+    * text-align: center, left, right, justify.
+    * text-shadow: 1px 1px 1px red offset-x, offset-y, -blur e cor
+    * shorthand: italic normal bold normal 3em/1.5 helvetica, arial, sans-Serif, style, variant, weight, stretch, size, line-height, family.
+    webfonts:
+    @import
+    @font-face
+    link
+    https://fonts.google.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        h1{
+            color: red;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            letter-spacing: 1.2rem;
+            font-stretch: condensed;
+            word-spacing: 4rem;
+            text-transform: uppercase;
+            text-decoration: line-through underline overline;
+            text-align: center;
+            text-shadow: 1px 1px 1px greenyellow;
+        }
+        h2 { 
+            color: blue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 4rem;
+            text-decoration: underline wavy blue;
+            text-align: justify;
+            font-family: 'Babylonica', cursive;
+        }
+        h3 {
+            font-family: 'Tilt Prism', cursive;
+        }
+        h4 {
+            font-family: 'Bebas Neue', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando fontes</h1>
+    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint perspiciatis molestiae in fugiat numquam at, rem sequi deleniti architecto, inventore blanditiis odio voluptatum deserunt dignissimos autem vero soluta sapiente iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempore suscipit quibusdam voluptas, iure ab, ea adipisci natus, temporibus accusamus obcaecati totam quasi cum consequuntur repudiandae! Porro voluptatem veritatis autem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores minus laudantium iure soluta magnam nemo. Numquam dolore libero, provident maxime aspernatur quo ullam fuga molestias quidem autem mollitia atque fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, expedita dolore, ducimus eveniet voluptatem quas molestiae reiciendis facilis ab, quam quaerat corporis placeat repudiandae vitae! Fugiat reprehenderit aliquam neque dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, sed facere? Delectus commodi, voluptates quibusdam maxime molestiae dolore nam, perferendis culpa, recusandae hic odio similique ducimus excepturi quas! Eaque, fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo incidunt magni, nam neque amet dolorum quasi eligendi veniam fuga dicta? Fugiat dolore perferendis consequatur necessitatibus nostrum repudiandae eligendi illo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates molestiae architecto quam ad, magnam necessitatibus totam odit et iure ratione aperiam ullam aspernatur dicta voluptas unde nemo quos. </h2>
+    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum in recusandae accusamus amet qui voluptas cupiditate nemo mollitia neque reprehenderit? Nesciunt veniam saepe laborum quaerat, harum omnis cumque commodi quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem in sint exercitationem. Vel, corrupti! Quaerat vitae nesciunt totam perspiciatis quam necessitatibus possimus sunt illum, ad, odit autem iste dolorum dolores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat animi quisquam odio maxime voluptates sunt cupiditate, facilis nesciunt veritatis, voluptate excepturi architecto suscipit deserunt maiores soluta aliquid dolor quam aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque, quasi nesciunt culpa saepe nobis veniam cupiditate eius sed magni quia voluptate numquam facere repudiandae suscipit dicta totam fuga atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex incidunt error ipsum dolores illo? Quae corporis dignissimos dolores maiores, quo impedit, magni, esse molestias alias quis illo eum minima quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt commodi voluptatibus qui mollitia officia nulla voluptas obcaecati maxime, quas et fuga, numquam doloribus, incidunt minima magnam culpa laudantium? Explicabo, non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque maxime suscipit neque sed deserunt enim, optio possimus veritatis. Reprehenderit, consequuntur. A dolorem cupiditate suscipit quos praesentium at modi voluptatum ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum alias quia rerum repudiandae ex, magnam odit? Unde sapiente, odio voluptatibus harum veniam ipsum dignissimos? Sapiente nobis quam iste tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sunt voluptatum beatae, obcaecati ipsum expedita cum voluptates enim praesentium natus nihil velit! Vitae, qui voluptatibus ab nisi modi porro esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus perferendis veritatis numquam a sint recusandae reiciendis expedita necessitatibus, autem magni laudantium cupiditate quisquam earum aspernatur error nihil itaque quam!</h3>
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, debitis sequi soluta voluptatem minima voluptas error nostrum quo culpa ratione, labore facere at, dolor officiis libero laudantium consectetur! Nam, provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt voluptas itaque ad id ut quae ipsum dicta inventore sequi. Recusandae architecto nesciunt saepe corrupti veniam possimus vero nemo ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio voluptas quibusdam? Recusandae doloremque sequi provident mollitia tenetur laudantium deserunt ratione, eius nisi consequatur quod autem ipsa rem minima? Eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas nam laboriosam eius illo expedita nulla? Facere, dolorem. Officiis quo maxime odio harum consectetur omnis illo autem, ea ad est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, velit? Exercitationem, facere distinctio corporis praesentium architecto quam accusamus eius voluptatum error facilis neque ex aut fuga, labore similique corrupti numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore rem, hic dignissimos mollitia libero reiciendis commodi voluptates impedit ratione, repellat animi? Dolor quam suscipit, libero soluta eveniet consequuntur vero animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quaerat magni laboriosam architecto ipsam at expedita amet accusantium ratione eveniet. Hic nostrum vitae in molestias omnis amet perferendis adipisci tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, blanditiis dolorem corrupti sed provident fugit quod sapiente? Fugiat sit natus odit unde dignissimos autem, necessitatibus ab, pariatur fugit, et consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum deleniti, consectetur mollitia maiores unde, ipsum excepturi vitae voluptatibus temporibus nihil veritatis illum. Eum molestias quidem ea repellendus reprehenderit pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex soluta, molestias nulla repellendus inventore modi! Porro culpa possimus ullam iste optio saepe molestiae eligendi qui autem fugiat, vitae error distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iusto perspiciatis, ut asperiores vel velit qui cupiditate voluptatem fugiat accusamus in tempore eum ipsa excepturi. Hic exercitationem modi in numquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius sit fugit doloremque cumque! Asperiores error aliquid consequatur quas quo cupiditate minus praesentium sapiente libero qui suscipit, quaerat culpa nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi animi accusantium sequi iure sit blanditiis quos commodi similique temporibus expedita impedit, dolores ratione reprehenderit quaerat quasi fuga minus optio!</h4>
+</body>
+</html>
