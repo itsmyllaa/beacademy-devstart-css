@@ -1,0 +1,29 @@
+ul {
+    position: relative;
+}
+ul li::after {
+    content: '';
+    font-size: 24px;
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+}
+ul li::before {
+    content: '';
+    font-size: 24px;
+    background-color: blue;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 125px;
+}
+p::first-line {
+    color: red;
+}
+p::first-letter {
+    color: blue;
+}
